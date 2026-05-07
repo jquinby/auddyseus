@@ -2,7 +2,7 @@
 
 A standalone terminal music player for Linux. Plays internet radio streams (SomaFM, Icecast, SHOUTcast, etc.) and local audio files, with D-Bus desktop notifications on track change.
 
-![auddyseus screenshot](https://raw.githubusercontent.com/placeholder/auddyseus/main/screenshot.png)
+![auddyseus screenshot](https://github.com/jquinby/auddyseus/blob/main/screenshot.png)
 
 ## Features
 
