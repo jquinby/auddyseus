@@ -1,0 +1,34 @@
+[package]
+name = "auddyseus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ratatui = "0.26"
+crossterm = "0.27"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+rodio = { version = "0.17", features = ["symphonia-all"] }
+reqwest = { version = "0.11", features = ["blocking"] }
+dirs = "5"
+notify-rust = "=4.10.0"
+libc = "0.2"
+
+[dependencies.indexmap]
+version = "=2.2.6"
+
+[dependencies.idna_adapter]
+version = "=1.2.0"
+
+[dependencies.openssl-sys]
+version = "=0.9.102"
+
+[dependencies.litemap]
+version = "=0.7.3"
+
+[dependencies.unicode-segmentation]
+version = "=1.11.0"
+
+[dependencies.symphonia]
+version = "0.5.2"
+features = ["mp3", "aac", "isomp4", "vorbis", "flac", "wav", "pcm", "adpcm"]
