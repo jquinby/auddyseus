@@ -4,6 +4,8 @@ A standalone terminal music player for Linux. Plays internet radio streams (Soma
 
 ![auddyseus screenshot](https://github.com/jquinby/auddyseus/blob/main/screenshot.png)
 
+Yes, it's one more TUI in Rust. I couldn't find anything that did exactly what I wanted, and inspired by [A desktop made for one](https://isene.org/2026/05/Audience-of-One.html), I figured I'd just make it. Or have it made. So here it is. 
+
 ## Features
 
 - **Internet radio** — Icecast/SHOUTcast streams with ICY metadata parsing (extracts `StreamTitle` for the now-playing bar and notifications)
